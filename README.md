@@ -23,5 +23,6 @@
 ### - I built a Dockerfile that hopefully has all of the dependencies taken care of 
 ### - docker build -t myapp .
 ### - docker run -p 5000:5000 myapp
+### - simply enter the date, and it will return the estimated receipt count for that month!
 ### - the site should look like: <img width="1248" alt="image" src="https://github.com/zafifi100/fetch/assets/114939084/dda79eb8-ef92-4c89-a2e9-6808ce457870">
 
