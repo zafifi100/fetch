@@ -10,3 +10,18 @@
 ### - I also decided to add a dropout layer to reduce overfitting chance
 ### - I used MAE for my loss function due to easier interprebility than MSE
 ### - The lowest MAE I achieved was just under 6%
+### - I shouldve implemented more testing methods, I just included a line of best fit scatter plot
+
+
+## For Deployment
+### - I wrote an html file to work with a .py file I used.
+### - I saved the model from my jupyter notebook and used it in the .py
+### - I couldve done a manual MLP, but for simplicity's sake, I just saved it as a .h5
+
+
+## HOW TO USE
+### - I built a Dockerfile that hopefully has all of the dependencies taken care of 
+### - docker build -t myapp .
+### - docker run -p 5000:5000 myapp
+### - the site should look like: <img width="1248" alt="image" src="https://github.com/zafifi100/fetch/assets/114939084/dda79eb8-ef92-4c89-a2e9-6808ce457870">
+
